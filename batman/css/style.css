@@ -1,0 +1,73 @@
+/*Generales*/
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #005677;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    background-color: #C4C4C4;
+    font-style: normal;
+    letter-spacing: 10px;
+    
+}
+
+h2 {
+    font-size: 25px;
+    color: #005677;
+    background-color: #C4C4C4;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+
+h3 {
+    color:white;
+}
+
+p {
+    font-size: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.centrado {
+    display:block;
+    margin:auto;
+}
+
+/*Estilos header"*/
+
+header {
+    background-color: #E5E5E5;
+}
+
+/*Estilos main*/
+main {
+    margin: 10rem;
+}
+
+/*Estilos Footer*/
+footer {
+    background-color: #005677;
+}
+
+.caja-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:auto;
+}
+
+.caja-footer h3, img{
+    margin:10px;
+}
+
