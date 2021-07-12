@@ -55,6 +55,22 @@ main {
     margin: 10rem;
 }
 
+
+li p {
+    margin-block-end: 1em;
+    margin-block-start:0em;
+}
+
+.caja-parrafo {
+    display: flex;
+    flex-direction: column;
+}
+
+.margen-p {
+    margin-left: 4.8rem;
+}
+
+
 /*Estilos Footer*/
 footer {
     background-color: #005677;
@@ -70,4 +86,3 @@ footer {
 .caja-footer h3, img{
     margin:10px;
 }
-
