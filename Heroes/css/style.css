@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+.caja-descuento{
+    background-color:#1CD1B0;
+    height: 38px;
+    font-size: 15px;
+    padding: 10px;
+    position: sticky;
+}
+
+header {
+    height: 100px;
+    background-color: #00669F;
+}
+
+h1 {
+    font-size: 40px;
+    padding:20px;
+}
+
+h2 {
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 18.75px;
+    margin: 10px;
+}
+
+main {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cajas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article {
+    background-color: #F3F3F3;
+    margin:10px;
+    width: 300px;
+    height: 530px;
+}
+
+.cajas-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 337px;
+}
+
+.cajas-imagenes {
+    position: relative;
+}
+
+.imagen-personaje {
+    position: absolute;
+    border-radius: 80%;
+    left: 90px;
+    top: 130px;
+}
+
+.imagen-corazon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+button {
+    background-color: #00669F;
+    width: 128px;
+    height: 48px;
+    color: #F3F3F3;
+    left: 200px;
+}
+
+footer {
+    background-color: #00669F;
+    height: 50px;
+}
+
+footer p {
+    padding: 15px;
+    color: white;
+}

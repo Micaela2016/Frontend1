@@ -1,0 +1,104 @@
+/*----------Pagina--------*/
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*--------Formatos letras generales--------*/
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;*/
+
+nav {
+    overflow: hidden;
+    background-color: #02475E;
+    font-family: Arial;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Links inside the navbar */
+nav a {
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropBoton {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+nav a:hover,
+.dropdown:hover .dropBoton {
+    background-color: #FEFECC;
+    color: black;
+}
+
+.dropdown-contenido {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-contenido a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-contenido a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-contenido {
+    display: block;
+}
+
+.bg-image {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: 1900px;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -210%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
